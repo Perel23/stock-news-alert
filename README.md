@@ -5,7 +5,7 @@ Monitors a stock's daily price change and sends SMS alerts with relevant news wh
 ## What it does
 
 1. Fetches the last two days of closing prices for a stock (default: TSLA) from Alpha Vantage
-2. If the price changed by 1% or more, fetches the top 3 relevant news articles from NewsAPI
+2. If the price changed by 5% or more, fetches the top 3 relevant news articles from NewsAPI
 3. Sends each article as a formatted SMS via Twilio
 
 **Example message:**
