@@ -38,7 +38,7 @@ diff_percent = round((difference / day_before_yesterday_close) * 100)
 ## STEP 2: Use https://newsapi.org
 # Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME.
 
-if abs(diff_percent) >= 1:
+if abs(diff_percent) >= 5:
     news_params = {
         "apiKey": NEWS_API_KEY,
         "qInTitle": COMPANY_NAME,
